@@ -1,0 +1,15 @@
+
+Prerequisities: All stations are nodes and distance between stations as cost of the edge
+                Start node is initialised to 0
+                All other nodes are initialised to infinity
+
+Steps: Start at node start node
+       Find all immediate neighbours to start node
+       Iterate over all each immediate neighbours of start node
+       For each immediate neighbour Add initial value of start node to edge value (which would be 0+cost of edge which is distance between stations)
+       If new value < previous value
+       Update value of immediate neighbour node
+       Repeat for other nodes until final destination is achieved 
+
+
+
