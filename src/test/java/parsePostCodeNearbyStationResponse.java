@@ -34,7 +34,7 @@ public class parsePostCodeNearbyStationResponse {
                  }
              }
 
-             //sorting hashmap by value
+             //sorting by value
              List<Map.Entry<String,Integer>> list = new LinkedList<Map.Entry<String, Integer>>(unsortedStationByDistance.entrySet());
              Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
                  public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
